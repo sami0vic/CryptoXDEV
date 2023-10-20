@@ -1,7 +1,7 @@
-# 🔐 CryptoGuard 🔒
-Welcome to CryptoGuard, your one-stop 🏰 for learning, implementing, and exploring the fascinating world of cryptography! 🧐🔍
+# 🔐 CryptoXDEV 🔒
+Welcome to CryptoXDEV, your one-stop 🏰 for learning, implementing, and exploring the fascinating world of cryptography! 🧐🔍
 
-In this repository, we've gathered a comprehensive collection of 🛡️ cryptographic algorithms, tools, and educational resources to help you understand and harness the power of secure communication and data protection. 📚💻 Whether you're a seasoned cryptographer or just starting out, CryptoGuard is your trusted resource. 💪🔓
+In this repository, we've gathered a comprehensive collection of 🛡️ cryptographic algorithms, tools, and educational resources to help you understand and harness the power of secure communication and data protection. 📚💻 Whether you're a seasoned cryptographer or just starting out, CryptoXDEV is your trusted resource. 💪🔓
 
 ### Key Features 🌟:
 
@@ -29,6 +29,6 @@ In this repository, we've gathered a comprehensive collection of 🛡️ cryptog
 - Cybersecurity professionals focused on maintaining robust data protection. 🛡️💼
 - Anyone curious about the world of encryption and secure communication. 🤔🌐
 
-Join us on this exciting journey into the world of cryptography. Your data's security is our top priority, and CryptoGuard is here to equip you with the knowledge and tools you need to protect it. Explore, learn, and contribute to make the digital world a safer place. 🌐🔐🚀
+Join us on this exciting journey into the world of cryptography. Your data's security is our top priority, and CryptoXDEV is here to equip you with the knowledge and tools you need to protect it. Explore, learn, and contribute to make the digital world a safer place. 🌐🔐🚀
 
 Get started today! 🚀🔐🔑🎉
