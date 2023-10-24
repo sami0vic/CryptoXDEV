@@ -72,7 +72,7 @@ def bruteforce():
     sleep(2)
     print("Stand by, almost finished...\n")
     sleep(2)
-    for key in range(len(letters)):
+    for key in range(26):
         translated = ''
         for ch in encrypted_message:
             if ch in letters:
