@@ -1,5 +1,6 @@
 from termcolor import colored
 from time import sleep
+
 def decrypt():
     
     # Enter your encrypted message(string) below
@@ -24,10 +25,6 @@ def decrypt():
             decrypted_message += new_char
         else:
             decrypted_message += ch
-    print("\nDecrypting your message...\n")
-    sleep(2)
-    print("Stand by, almost finished...\n")
-    sleep(2)
     print("Your decrypted message is: ", decrypted_message, end="\n")
     repeat()
 
@@ -41,10 +38,6 @@ def encrypt():
     # Enter the key value to encrypt
     k = int(input("Enter the key to encrypt: "))
     encrypted_message = ""
-    print("\nEcrypting your message...\n")
-    sleep(2)
-    print("Stand by, almost finished...\n")
-    sleep(2)
 
     for ch in plaintext_message:
         if ch in letters:
@@ -68,10 +61,6 @@ def bruteforce():
     encrypted_message = input("Enter the message to be brute forced: ").strip()
 
     letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    print("\nBrute Forcing your message...\n")
-    sleep(2)
-    print("Stand by, almost finished...\n")
-    sleep(2)
     for key in range(26):
         translated = ''
         for ch in encrypted_message:
@@ -144,10 +133,10 @@ def repeat():
 
 
 print(colored("""
-H   H  EEEEE  L      L       O      X     X  DDDD   EEEEE  V       V
-H   H  E      L      L      O O      X   X   D   D  E       V     V
-HHHHH  EEEE   L      L     O   O       X     D   D  EEEE     V   V
-H   H  E      L      L      O O      X   X   D   D  E         V V
-H   H  EEEEE  LLLLL  LLLLL   O      X     X  DDDD   EEEEE      V
+  CCCC  AAAAA  EEEEE  SSSS  AAAAA  RRRR
+ C      A   A  E      S     A   A  R   R
+C       AAAAA  EEEE   SSSS  AAAAA  RRRR
+ C      A   A  E         S  A   A  R  R
+  CCCC  A   A  EEEE   SSSS  A   A  R   R
 """, "green"))
 login()
